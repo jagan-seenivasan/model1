@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.home-top{
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+.home{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.home-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.home h1{
+    margin: 0;
+    border: 0;
+    font-size: 400%;
+    color: white;
+    font-weight: 100;
+}
+.home a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home-text .btn{
+    display: inline-block;
+    padding: 8px;
+    padding-top:5px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Inria Serif', serif;
+}
+
+.home-btn:link,.home-btn:visited{
+    background: rgba(235, 149, 52);
+    border: 1px solid transparent;
+    transition-duration:1.5s;
+    color: white;
+}
+.home-showBtn:link,.home-showBtn:visited{
+    border: 1px solid white;
+    transition-duration: 1s;
+    color: orange;
+    
+}
+.home-btn:hover{
+    background: transparent;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+.home-showBtn:hover{
+    transition-duration: .5s;
+    background: rgba(235, 149, 52);
+    border: 0.5px solid black;
+    color: white;
+    
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.main-div{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 5px;
+    padding-right: 10px;
+    text-align: center;
+    font-weight: 10;
+}
+.main-div li a:link,.main-div li a:visited{
+    text-decoration: none;
+    padding: 8px 0;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.main-div li a:hover{
+    border-bottom:1px solid lightcoral;
+}
+
+.section-home h1{
+    padding-left: 35%;
+    margin: 0;
+    border: 0;
+    font-size: 400%;
+    color: black;
+    font-weight: 100;
+}
+.section-home h1:after{
+    content:"";
+    height: 2px;
+    width :100px;
+    margin: 0 19%;
+    display: block;
+    margin-top:10px;
+    background-color: orange;
+}
+.section-home .row{
+    padding: 40pxh2;
+    margin: 0;
+}
+.section-home i{
+    font-size: 40px;
+    display: block;
+    color: #e67e22;
+    margin: 20px;
+}
+.section-home .paragraph, .section-home h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 32px;
+    width: 90%;
+}
+
